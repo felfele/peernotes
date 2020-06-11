@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 500px;
+  width: 90vw;
+  max-height: 96vh;
+  overflow: auto;
+  flex-direction: 'column';
+  justify-content: stretch;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: 'row';
+  align-items: center;
+  justify-content: space-between;
+}
+
