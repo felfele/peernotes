@@ -23,6 +23,7 @@
   padding: 5px;
   max-width: 500px;
   width: 90vw;
+  min-height: 50vh;
   max-height: 96vh;
   overflow: auto;
   flex-direction: 'column';
@@ -40,4 +41,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
